@@ -1,9 +1,22 @@
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="style.css">
+
+<link href="https://fonts.googleapis.com/css?family=Alegreya|Merienda" rel="stylesheet">
+
 <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-<p id="riddle">Riddle text goes here</p>
-  <button id="show-answer">Show Answer</button>
-<p id="answer">Riddle solution goes here</p>
+<header></header>
+<div id="riddle">
+<p>A murderer is condemned to death. He must choose between three rooms.</p>
+<p>The first is full of raging fires; the second, assassins with loaded guns; and the third, lions who haven't eaten in years.</p>
+<p>Which room is the safest?</p>
+</div>
+<div>
+<button onclick="toggleVis()" id="answerButton">Show Answer</button>
+</div>
+<div id="answer"><p>The third room. The poor lions died of starvation.</p></div>
+<div id="link">Riddle sourced from <a href="https://twentytwowords.com/can-you-solve-these-riddles-without-looking-at-the-answers/">Twenty-Two Words</a></div>
+<footer></footer>
 </body>
